@@ -1,0 +1,141 @@
+
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link{
+
+    color:#fff8e7;
+}
+
+.marcas h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.marcas{
+    display: flex;
+    padding-top: 1%;
+    justify-content: center;
+}
+
+.marcas img {
+    margin: 1%;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: center;
+}
+
+.ofertas img{
+    margin: 30px;}
+
+.titulos{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: rgb(44, 38, 38);
+}
+
+footer iframe{
+        margin: 20px;
+        display: inline;
+        width: 40%; }
+footer ul{
+        display: inline-block;
+    }
+
+
+
+/*sneaker*/
+
+.sneaker-letras{
+    display: flex;
+    justify-content: center;
+}
+
+.sneakers-card{
+    display:grid;
+}
+
+.sneakers-boton{
+display: flex;
+justify-content: center;
+}
+
+.sneaker-titulo{
+    display: flex;
+justify-content: center;
+}
+
+/*mi cuenta*/
+
+.iniciar-sesion{
+    margin: 10%;
+
+}
+
+
+
+
+
+@media screen and (min-width: 480px) {
+
+    .marcasresponsive{
+        display: none;
+    }
+    .barraresponsive{
+        display:none;
+    }
+    .ofertasresponsive{
+        display: none;
+    }
+
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    .marcas{
+        display: none;
+    }
+
+    .ofertas{
+        display: none;
+    }
+
+    .marcasresponsive{
+    background-color: #fff8e7;
+    display: flex;
+    padding-top: 1%;
+    justify-content: center;
+    }
+
+    .marcasresponsive img{
+        
+        margin: 1%;
+        width: 60px;
+
+    }
+
+    .ofertasresponsive{
+        background-color: #fff8e7;
+        display: flex;
+        padding-top: 1%;
+        justify-content: center;
+        }
+
+    .ofertasresponsive img{
+        
+            margin: 1%;
+            width: 60px;
+    
+        }
+
+    }
