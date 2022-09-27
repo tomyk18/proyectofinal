@@ -9,7 +9,8 @@
     <title>Post Mortem</title>
 </head>
 <body>
-      <nav class="navbar navbar-expand-lg navbar-light"style="background-color: rgb(44, 38, 38)">
+      <nav class="navbar navbar-expand-lg navbar-light"style="background-color: #181717;
+      background-image: linear-gradient(62deg, #181717 5%, #2c2626 53%);">
         <div class="container-fluid">
           <a class="navbar-brand logo" href="./index.html"><img src="./img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,7 +19,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="./paginas/micuenta.html">Mi Cuenta</a>
+                <button class="btn btn-primary " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">mi cuenta
+
+          </button>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle letras-nav " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
@@ -31,6 +34,17 @@
            </div>
         </div>
       </nav>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+      <div class="offcanvas-header">
+        <h5 id="offcanvasRightLabel">Offcanvas right</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        ...
+      </div>
+    </div>
+      
 
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -55,6 +69,7 @@
       </div>
       <h2 class="titulos">MARCAS</h2>
       <section class="marcas">
+    
         <img src="./img/adidas.png" alt="marcas">
         <img src="./img/nike.png" alt="marcas">
         <img src="./img/jordan.png" alt="marcas">
@@ -95,7 +110,7 @@
 
   <footer>
 
-      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13616.630158316886!2d-62.08136695128175!3d-31.43732960556568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1660598434005!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13616.630158316886!2d-62.08136695128175!3d-31.43732960556568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1660598434005!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       <ul> 
           <li>
               <img src="https://dummyimage.com/50x50/000000/fff&text=+redes" alt="">
